@@ -3,6 +3,24 @@ public class Box {
     double width;
     double height;
 
+
+    Box(){
+        this(10);
+    }
+
+//    Конструктор может быть без параметров и с параметрами
+    Box(double lenght, double width, double height){
+        this.lenght = lenght;
+        this.width = width;
+        this.height = height;
+
+    }
+
+// перезагрузка конструктора
+    Box(double size){
+        this(size,size,size);
+    }
+
 //    параметризированный метод
 
     void setDimens(double lenght, double width, double height){

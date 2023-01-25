@@ -1,10 +1,12 @@
 public class MainBox {
     public static void main(String[] args) {
-        Box box1 = new Box();// ссылочный тип
-        Box box2 = new Box();// ссылочный тип
+//        Box box1 = new Box(12,12,12);// ссылочный тип
+//        Box box2 = new Box(18,18,18);// ссылочный тип
+        Box box3 = new Box(30);
+        box3.showVolume();
 //        параметризированные методы
-        box1.setDimens(15,15,15);
-        box2.setDimens(20,20,20);
+//        box1.setDimens(15,15,15);
+//        box2.setDimens(20,20,20);
 
 
 //        box1.height = 10;
@@ -22,7 +24,7 @@ public class MainBox {
 //        double volume2 = box2.getVolume();
 //        System.out.println(volume);
 //        System.out.println(volume2);
-        box1.showVolume();
-        box2.showVolume();
+//        box1.showVolume();
+//        box2.showVolume();
     }
 }
