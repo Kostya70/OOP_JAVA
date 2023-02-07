@@ -1,3 +1,5 @@
+package example;
+
 public class Dog {
     String name;
     String breed;

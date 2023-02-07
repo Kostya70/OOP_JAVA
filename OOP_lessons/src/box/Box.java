@@ -1,15 +1,17 @@
+package box;
+
 public class Box {
-    double lenght;
-    double width;
-    double height;
+   private double lenght;
+    private double width;
+    private double height;
 
 
-    Box(){
+    public Box(){
         this(10);
     }
 
 //    Конструктор может быть без параметров и с параметрами
-    Box(double lenght, double width, double height){
+    public Box(double lenght, double width, double height){
         this.lenght = lenght;
         this.width = width;
         this.height = height;
@@ -17,13 +19,13 @@ public class Box {
     }
 
 // перезагрузка конструктора
-    Box(double size){
+    public Box(double size){
         this(size,size,size);
     }
 
 //    параметризированный метод
 
-    void setDimens(double lenght, double width, double height){
+    public void setDimens(double lenght, double width, double height){
         this.lenght = lenght;
         this.width = width;
         this.height = height;
@@ -31,7 +33,7 @@ public class Box {
     }
 
 
-    double getVolume(){ // метод пишется так
+    private double getVolume(){ // метод пишется так
 //        double volume = lenght * width * height;
 //        return volume;
 //или так
@@ -55,7 +57,7 @@ public class Box {
 //            double volume = getVolume();
 //            System.out.println(volume);
 //или так
-            void showVolume(){
+           public void showVolume(){
                 System.out.println(getVolume());
     }
 }

@@ -1,3 +1,5 @@
+package example;
+
 public class Rect {
     double lenght;
     double width;

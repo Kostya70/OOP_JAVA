@@ -1,3 +1,5 @@
+package example;
+
 // Задание по конструктору alt + insert
 public class Employee {
     String name;

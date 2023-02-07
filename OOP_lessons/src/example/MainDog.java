@@ -1,3 +1,5 @@
+package example;
+
 public class MainDog {
     public static void main(String[] args) {
         Dog dog = new Dog();

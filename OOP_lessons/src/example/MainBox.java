@@ -1,7 +1,11 @@
+package example;
+
+import box.Box;
+
 public class MainBox {
     public static void main(String[] args) {
-//        Box box1 = new Box(12,12,12);// ссылочный тип
-//        Box box2 = new Box(18,18,18);// ссылочный тип
+//        box.Box box1 = new box.Box(12,12,12);// ссылочный тип
+//        box.Box box2 = new box.Box(18,18,18);// ссылочный тип
         Box box3 = new Box(30);
         box3.showVolume();
 //        параметризированные методы
@@ -13,7 +17,7 @@ public class MainBox {
 //        box1.lenght = 10;
 //        box1.width = 10;
 
-//        Box box3 = box2;
+//        box.Box box3 = box2;
 //        box2.height = 20;
 //        box2.lenght = 20;
 //        box2.width = 20;
