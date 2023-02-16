@@ -26,6 +26,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Name: " + name + " Age: " + age;
+//        return "Name: " + name + " Age: " + age;
+        return String.format("Name: %s Age %s", name, age);
     }
 }
