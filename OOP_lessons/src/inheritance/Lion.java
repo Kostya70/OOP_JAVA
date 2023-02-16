@@ -6,4 +6,9 @@ public class Lion extends CatFamily{
         super(4,2,true);
 
     }
+    @Override
+    public void eat(){
+        super.eat();
+        System.out.println("антилопу");
+    }
 }

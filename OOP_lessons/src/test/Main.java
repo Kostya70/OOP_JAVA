@@ -1,6 +1,7 @@
 package test;
 
 import example.MyMath;
+import example.Person;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,5 +25,9 @@ public class Main {
 //        employees.add("Kate");
 //        employees.add("Fred");
 //        return employees;
+
+
+        Person person = new Person("John", 17);
+        System.out.println(person);
     }
 }

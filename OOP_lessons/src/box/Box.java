@@ -10,6 +10,10 @@ public class Box {
         this(10);
     }
 
+    public Box(Box another){
+        this(another.lenght, another.height, another.width);
+    }
+
 //    Конструктор может быть без параметров и с параметрами
     public Box(double lenght, double width, double height){
         this.lenght = lenght;
@@ -21,6 +25,10 @@ public class Box {
 // перезагрузка конструктора
     public Box(double size){
         this(size,size,size);
+    }
+
+    public void showInfo(){
+        System.out.println("width " + width + "lenght " + lenght + "heigyht " + height  );
     }
 
 //    параметризированный метод
